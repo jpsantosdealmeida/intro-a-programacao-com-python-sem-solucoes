@@ -32,16 +32,11 @@ Cada capítulo do livro tem sua própria pasta, que contém uma explicação dos
 - **cap_01**: Contém a explicação do Capítulo 1 em `cap_ x - explicacacoes` e os exercícios em `exercicios/` e assim por diante.<br>
 
 
-
-
 ## ❓ Como Usar Este Repositório
 
-1. Navegue até a pasta do capítulo que você está estudando.<br>
-
-2. Leia a explicação em `cap-x - explicacoes` para entender os conceitos abordados.<br>
-
-3. Vá para a pasta `exercicios/` e tente resolver os exercícios nos arquivos `.py`.<br>
-
+1. Navegue até a pasta do capítulo que você está estudando.
+2. Leia a explicação em `cap-x - explicacoes` para entender os conceitos abordados.
+3. Vá para a pasta `exercicios/` e tente resolver os exercícios nos arquivos `.py`.
 4. (Opcional) Compare suas soluções com as soluções disponíveis no repositório de soluções.
 
 
