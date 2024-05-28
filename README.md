@@ -23,23 +23,26 @@ Um estudante de Ciências da compução adentrando por todo o conhecimento forne
 ## 💡 Introdução à Programação com Python - Explicações e Exercícios<br>
 
 
-Este repositório contém explicações e exercícios do livro "Introdução à Programação com Python" de Nilo Ney Coutinho. Este é um recurso para quem está estudando o livro e quer tentar resolver os exercícios por conta própria antes de olhar as soluções.<br>
+Este repositório contém explicações e exercícios prontos a solucionar do livro "Introdução à Programação com Python" de Nilo Ney Coutinho. Este é um recurso para quem está estudando o livro e quer tentar resolver os exercícios por conta própria antes de olhar as soluções.<br>
 
 ## 📚 Estrutura do Repositório<br>
 
 
 Cada capítulo do livro tem sua própria pasta, que contém uma explicação dos conceitos abordados e uma pasta com os exercícios do capítulo.
-- **cap_01**: Contém a explicação do Capítulo 1 em `explicacao.md` e os exercícios em `exercicios/`.<br>
+- **cap_01**: Contém a explicação do Capítulo 1 em `cap_ x - explicacacoes` e os exercícios em `exercicios/` e assim por diante.<br>
 
 
 
 
-## ❓ Como Usar Este Repositório<br>
+## ❓ Como Usar Este Repositório
 
+1. Navegue até a pasta do capítulo que você está estudando.<br>
 
-1. Navegue até a pasta do capítulo que você está estudando.
-2. Leia a explicação em `cap-x - explicacoes` para entender os conceitos abordados.
-3. Vá para a pasta `exercicios/` e para verificar as soluções dos exercícios nos arquivos `.py`.
+2. Leia a explicação em `cap-x - explicacoes` para entender os conceitos abordados.<br>
+
+3. Vá para a pasta `exercicios/` e tente resolver os exercícios nos arquivos `.py`.<br>
+
+4. (Opcional) Compare suas soluções com as soluções disponíveis no repositório de soluções.
 
 
 ## :arrow_forward: Como rodar a aplicação <br>
@@ -47,7 +50,7 @@ Cada capítulo do livro tem sua própria pasta, que contém uma explicação dos
 
 No terminal, clone o projeto: `git clone` e o seguinte código abaixo no terminal
 ```
-https://github.com/jpsantosdealmeida/intro-a-programacao-com-python-com-solucoes.git
+https://github.com/jpsantosdealmeida/intro-a-programacao-com-python-sem-solucoes.git
 ```
 
 ## 👐Contribuindo<br>
