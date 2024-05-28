@@ -1,7 +1,7 @@
-# modifique o programa que foi apresentado nas informações do while para 100
-
+# modifique o programa abaixo para 100
+'''
 x = 1
-
-while x <= 100:
+while x <= 3:
     print(x)
-    x += 1
+    x = x + 1
+'''

@@ -13,7 +13,7 @@ while fim > 1:
             L[x] = L[x+1]
             L[x+1] = temp
         x+=1
-    if not trocou: # Como a lista já está ordenada, ela para aqui
+    if not trocou: 
         break
     fim -=1
 for e in L:

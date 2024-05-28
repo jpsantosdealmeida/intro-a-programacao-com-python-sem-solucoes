@@ -18,18 +18,3 @@ Se encontrar algum divisor, o número não é primo.
 Se não encontrar nenhum divisor, o número é primo.
 A razão para verificar até a raiz quadrada é que se um número n pode ser dividido por algum número m, então n = m * k e pelo menos um dos fatores m ou k deve ser menor ou igual à raiz quadrada de n.
 '''
-print('*'*25)
-print('Veficador de números primos')
-print('*'*25)
-n = int(input('Insira um número para verificar se o mesmo é PRIMO: '))
-
-while True:
-    if n < 1:
-        print(f'{n} não é PRIMO')
-        n = int(input('Insira outro número: '))
-    elif n % 2 == 0:
-        print(f'{n} não é PRIMO')
-        n = int(input('Insira outro número: '))
-    else:
-        print('É PRIMO')
-        break

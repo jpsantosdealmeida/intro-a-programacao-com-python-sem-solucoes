@@ -2,18 +2,7 @@
 # Exiba os valores mês a mês para os 24 primeiros meses
 # Escreva o total ganho com juros no período
 
-dep_inicial = float(input('Insira o depósito inicial: '))
-taxa_juros = float(input('Insira a taxa de juros da poupança: '))
-mes = 1
-total_ganho = 0
 
-while mes <= 10:
-    lucro = (dep_inicial * taxa_juros / 100)
-    print(f'O lucro no {mes}° foi de {lucro:.2f} ')
-    dep_inicial += lucro
-    total_ganho += lucro
-    mes += 1
-print(f'O valor total de juros acumulado  foi de {total_ganho:5.2f}')
 '''
 >> Analisar criticamente
 tente explicar o problema para você mesmo em voz alta

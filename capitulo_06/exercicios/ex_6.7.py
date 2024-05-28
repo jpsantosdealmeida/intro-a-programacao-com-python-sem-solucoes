@@ -22,20 +22,3 @@ correspondente de abertura, retornando "Erro". Caso contrário, remove (desempil
 
 Verificação Final: Após percorrer toda a expressão, verifica se a pilha está vazia. Se estiver, significa que todos os parênteses de abertura foram corretamente fechados, retornando "OK". Se não, retorna "Erro".
 '''
-
-pilha = []
-expressao = input('Passa os parênteses para a pilha: ')
-
-for caractere in expressao:
-    if caractere == '(':
-        pilha.append(caractere)
-    elif caractere == ')':
-        if len(pilha) == 0:
-            print('Erro')
-        pilha.pop()
-
-if len(pilha) == 0:
-    print('OK')
-else:
-    print('Erro')
-    

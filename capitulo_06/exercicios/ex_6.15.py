@@ -1,5 +1,5 @@
 # O que acontece quando dois valores são iguais?
-# Ela ordena também
+
 
 L = [3,3,1,5,4]
 fim = 5

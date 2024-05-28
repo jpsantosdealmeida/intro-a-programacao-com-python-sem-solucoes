@@ -1,5 +1,4 @@
 # O que acontece quando não verficamos se a lista está vazia antes de chamarmos o método pop?
-# Quando a lista estiver vazia irá dar erro no método pop, pois não executará esse método
 
 ultimo = 10
 fila = list(range(1, ultimo+1)) # Fila que vai de 1 ao 10

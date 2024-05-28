@@ -2,7 +2,3 @@
 
 # 1 metro = 1000 milimetros
 
-metros = int(input('Insira o valor em metros: '))
-milimetros = metros * 1000
-
-print(f'{metros} metros em milimetros é {milimetros} milimetros')

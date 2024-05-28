@@ -1,9 +1,9 @@
-# Execute o programa 5.1 de cédulas
+# Execute o programa  de cédulas
 # Modifique o programa para receber cédular de 100
 
 valor = int(input('Digite o valor a pagar: ')) # 245
 cedulas = 0
-atual = 100
+atual = 50
 apagar = valor  # 245
 
 while True:
@@ -15,9 +15,7 @@ while True:
             print(f'{cedulas} cédula(s) de R$ {atual}')
         if apagar == 0:
             break
-        if atual == 100:
-            atual = 50
-        elif atual == 50:
+        if atual == 50:
             atual = 20
         elif atual == 20:
             atual = 10
@@ -26,3 +24,5 @@ while True:
         elif atual == 5:
             atual = 1
         cedulas = 0
+
+      

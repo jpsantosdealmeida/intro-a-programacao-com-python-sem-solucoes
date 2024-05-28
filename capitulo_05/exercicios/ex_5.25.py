@@ -6,14 +6,3 @@
 # recalcule p usando a fórmula apresentada.
 # Pare quando a diferença absoluta entre n e o quadrado de p for menor que 0.0001.
 
-n = int(input('Insira o número que deseja calcular a raíz: '))
-# b ou base = 2
-b = 2
-limite = 0.0001
-
-while True:
-    p = (b+(n/b))/2
-    if (p**2 - n) < limite:
-        print(f'A raíz quadrada de {n} é  aproximadamente {p:5.2f}')
-        break
-    b = p
